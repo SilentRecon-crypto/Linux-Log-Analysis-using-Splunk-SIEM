@@ -31,9 +31,7 @@ The primary objective was to understand how Security Information and Event Manag
      Splunk Enterprise
              │
       SPL Log Analysis
-             │
-             ▼
-  Dashboards & Findings
+
 ```
 
 ---
