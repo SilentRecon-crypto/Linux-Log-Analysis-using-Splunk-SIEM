@@ -1,0 +1,4 @@
+Jun 30 02:52:46 kali sudo[4903]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/passwd splunktest
+Jun 30 02:53:08 kali sudo[4911]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/passwd splunktest
+Jun 30 02:53:15 kali passwd[4914]: pam_unix(passwd:chauthtok): password changed for splunktest
+Jun 30 02:53:15 kali passwd[4914]: gkr-pam: couldn't update the login keyring password: no old password was entered

@@ -1,0 +1,142 @@
+May 30 04:53:37 kali sudo[3863]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt install gparted -y
+May 30 04:53:37 kali sudo[3863]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 04:53:39 kali sudo[3863]: pam_unix(sudo:session): session closed for user root
+May 30 04:53:48 kali sudo[3958]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 30 04:53:48 kali sudo[3958]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 04:55:29 kali sudo[4983]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/fdisk -l /dev/sda
+May 30 04:55:29 kali sudo[4983]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 04:55:29 kali sudo[4983]: pam_unix(sudo:session): session closed for user root
+May 30 04:56:21 kali sudo[5326]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/swapoff -a
+May 30 04:56:21 kali sudo[5326]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 04:56:22 kali sudo[5326]: pam_unix(sudo:session): session closed for user root
+May 30 04:59:15 kali sudo[6927]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/fallocate -l 2G /swapfile
+May 30 04:59:15 kali sudo[6927]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 04:59:15 kali sudo[6927]: pam_unix(sudo:session): session closed for user root
+May 30 05:00:28 kali sudo[8646]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/tee -a /etc/fstab
+May 30 05:00:28 kali sudo[8646]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 05:00:28 kali sudo[8646]: pam_unix(sudo:session): session closed for user root
+May 30 05:01:54 kali sudo[3958]: pam_unix(sudo:session): session closed for user root
+May 30 06:06:03 kali sudo[4427]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 30 06:06:03 kali sudo[4427]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 06:06:12 kali sudo[4544]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt update
+May 30 06:06:12 kali sudo[4544]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 06:07:20 kali sudo[4544]: pam_unix(sudo:session): session closed for user root
+May 30 06:07:20 kali sudo[5010]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt install -y wget
+May 30 06:07:20 kali sudo[5010]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 06:07:21 kali sudo[5010]: pam_unix(sudo:session): session closed for user root
+May 30 06:07:21 kali sudo[5024]:     root : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/bash
+May 30 06:07:21 kali sudo[5024]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 06:07:21 kali sudo[5028]:     root : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt update
+May 30 06:07:21 kali sudo[5028]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 06:07:24 kali sudo[5028]: pam_unix(sudo:session): session closed for user root
+May 30 06:07:24 kali sudo[5070]:     root : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt install git wget openjdk-21-jre -y
+May 30 06:07:24 kali sudo[5070]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 06:07:25 kali sudo[5070]: pam_unix(sudo:session): session closed for user root
+May 30 06:11:17 kali sudo[5024]: pam_unix(sudo:session): session closed for user root
+May 30 06:23:27 kali sudo[4427]: pam_unix(sudo:session): session closed for user root
+May 30 13:28:13 kali sudo[5045]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt install burpsuite
+May 30 13:28:13 kali sudo[5045]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 13:33:54 kali sudo[5045]: pam_unix(sudo:session): session closed for user root
+May 30 13:43:47 kali sudo[12048]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 30 13:43:47 kali sudo[12048]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 13:46:32 kali sudo[12048]: pam_unix(sudo:session): session closed for user root
+May 30 14:10:02 kali sudo[1823]:       as : TTY=tty2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/systemctl set-default
+May 30 14:10:02 kali sudo[1823]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 14:10:02 kali sudo[1823]: pam_unix(sudo:session): session closed for user root
+May 30 14:11:33 kali sudo[1900]:       as : TTY=tty2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 30 14:11:33 kali sudo[1900]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 14:16:53 kali sudo[2527]:     root : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/apt install --reinstall kali-desktop-gnome gnome-shell gnome-session -y
+May 30 14:16:53 kali sudo[2527]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 14:17:00 kali sudo[2527]: pam_unix(sudo:session): session closed for user root
+May 30 14:22:49 kali sudo[1900]: pam_unix(sudo:session): session closed for user root
+May 30 14:27:05 kali sudo[3404]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 30 14:27:05 kali sudo[3404]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 14:33:49 kali sudo[6421]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/bash
+May 30 14:33:50 kali sudo[6421]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 30 14:34:28 kali sudo[6701]:     root : TTY=pts/3 ; PWD=/home/as/Burpsuite-Professional ; USER=root ; COMMAND=/usr/bin/apt update
+May 30 14:34:28 kali sudo[6701]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 14:34:36 kali sudo[6701]: pam_unix(sudo:session): session closed for user root
+May 30 14:34:36 kali sudo[6773]:     root : TTY=pts/3 ; PWD=/home/as/Burpsuite-Professional ; USER=root ; COMMAND=/usr/bin/apt install git wget openjdk-21-jre -y
+May 30 14:34:36 kali sudo[6773]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=0)
+May 30 14:34:38 kali sudo[6773]: pam_unix(sudo:session): session closed for user root
+May 30 14:51:26 kali sudo[6421]: pam_unix(sudo:session): session closed for user root
+May 30 14:53:34 kali sudo[3404]: pam_unix(sudo:session): session closed for user root
+May 31 01:51:48 kali sudo[5329]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 31 01:51:48 kali sudo[5329]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 31 02:06:43 kali sudo[10556]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+May 31 02:06:43 kali sudo[10556]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+May 31 03:19:38 kali sudo[10556]: pam_unix(sudo:session): session closed for user root
+May 31 03:19:39 kali sudo[5329]: pam_unix(sudo:session): session closed for user root
+Jun 20 03:03:08 kali sudo[4669]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 20 03:03:08 kali sudo[4669]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 20 03:25:34 kali sudo[13015]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 20 03:25:34 kali sudo[13015]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 20 03:31:22 kali sudo[15201]:       as : TTY=pts/4 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/ip route
+Jun 20 03:31:22 kali sudo[15201]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 20 03:31:22 kali sudo[15201]: pam_unix(sudo:session): session closed for user root
+Jun 20 03:35:14 kali sudo[13015]: pam_unix(sudo:session): session closed for user root
+Jun 20 03:38:08 kali sudo[4669]: pam_unix(sudo:session): session closed for user root
+Jun 23 04:40:47 kali sudo[6369]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 23 04:40:47 kali sudo[6369]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 23 05:24:29 kali sudo[6369]: pam_unix(sudo:session): session closed for user root
+Jun 23 05:32:53 kali sudo[4019]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/netdiscover
+Jun 23 05:32:53 kali sudo[4019]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 23 05:34:17 kali sudo[4019]: pam_unix(sudo:session): session closed for user root
+Jun 23 05:34:24 kali sudo[5184]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 23 05:34:24 kali sudo[5184]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 23 05:42:30 kali sudo[5184]: pam_unix(sudo:session): session closed for user root
+Jun 23 05:43:55 kali sudo[9193]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 23 05:43:55 kali sudo[9193]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 23 05:58:57 kali sudo[9193]: pam_unix(sudo:session): session closed for user root
+Jun 24 03:29:45 kali sudo[4779]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 24 03:29:45 kali sudo[4779]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 24 03:34:27 kali sudo[7380]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 24 03:34:27 kali sudo[7380]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 24 03:42:55 kali sudo[7380]: pam_unix(sudo:session): session closed for user root
+Jun 24 03:44:06 kali sudo[11165]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 24 03:44:06 kali sudo[11165]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 29 06:39:16 kali sudo[3346]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/su
+Jun 29 06:39:16 kali sudo[3346]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 29 06:46:15 kali sudo[3596]:       as : TTY=pts/2 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/netdiscover -r 192.168.29.0/24
+Jun 29 06:46:15 kali sudo[3596]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 29 06:47:05 kali sudo[3596]: pam_unix(sudo:session): session closed for user root
+Jun 29 07:37:42 kali sudo[3346]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:49:01 kali sudo[4716]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/ls /root
+Jun 30 02:49:01 kali sudo[4716]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:49:01 kali sudo[4716]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:49:31 kali sudo[4731]: pam_unix(sudo:auth): authentication failure; logname=as uid=1000 euid=0 tty=/dev/pts/0 ruser=as rhost=  user=as
+Jun 30 02:49:40 kali sudo[4731]:       as : TTY=pts/0 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/ls /root
+Jun 30 02:49:40 kali sudo[4731]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:49:40 kali sudo[4731]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:51:59 kali sudo[4822]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/useradd splunktest
+Jun 30 02:51:59 kali sudo[4822]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:52:03 kali sudo[4822]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:52:46 kali sudo[4903]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/passwd splunktest
+Jun 30 02:52:46 kali sudo[4903]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:52:55 kali sudo[4903]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:53:08 kali sudo[4911]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/bin/passwd splunktest
+Jun 30 02:53:08 kali sudo[4911]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:53:15 kali sudo[4911]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:53:31 kali sudo[4948]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/userdel -r splunktest
+Jun 30 02:53:31 kali sudo[4948]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:53:31 kali sudo[4948]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:53:58 kali sudo[4970]:       as : TTY=pts/1 ; PWD=/home/as ; USER=root ; COMMAND=/usr/sbin/userdel -r splunktest
+Jun 30 02:53:58 kali sudo[4970]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:53:58 kali sudo[4970]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:54:39 kali sudo[5000]:       as : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/apt install tree
+Jun 30 02:54:39 kali sudo[5000]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:54:59 kali sudo[5000]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:55:26 kali sudo[5063]:       as : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/useradd splunktesti
+Jun 30 02:55:26 kali sudo[5063]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:55:26 kali sudo[5063]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:55:45 kali sudo[5089]:       as : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/sbin/userdel -r splunktesti
+Jun 30 02:55:45 kali sudo[5089]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:55:45 kali sudo[5089]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:56:53 kali sudo[5281]:       as : TTY=pts/1 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/su
+Jun 30 02:56:53 kali sudo[5281]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:58:45 kali sudo[5523]:       as : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/mkdir -/splunk-project/linux_logs
+Jun 30 02:58:45 kali sudo[5523]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:58:45 kali sudo[5523]: pam_unix(sudo:session): session closed for user root
+Jun 30 02:58:54 kali sudo[5539]:       as : TTY=pts/2 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/mkdir /splunk-project/
+Jun 30 02:58:54 kali sudo[5539]: pam_unix(sudo:session): session opened for user root(uid=0) by as(uid=1000)
+Jun 30 02:58:54 kali sudo[5539]: pam_unix(sudo:session): session closed for user root
